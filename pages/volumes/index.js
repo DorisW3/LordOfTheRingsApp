@@ -12,17 +12,15 @@ export default function Overview() {
       <h2>All Volumes</h2>
       <ul>
         <li>
-          <Link href="pages/volumes/the-fellowship-of-the-ring/the-fellowship-of-the-ring.js">
+          <Link href="volumes/the-fellowship-of-the-ring">
             The fellowship of the ring
           </Link>
         </li>
         <li>
-          <Link href="pages/volumes/the-two-towers/the-two-towers.js">
-            The two towers
-          </Link>
+          <Link href="volumes/the-two-towers">The two towers</Link>
         </li>
         <li>
-          <Link href="pages/volumes/the-return-of-the-king/the-return-of-the-king.js">
+          <Link href="volumes/the-return-of-the-king">
             The return of the king
           </Link>
         </li>
