@@ -20,6 +20,15 @@ export default function volume3() {
           </li>
         ))}
       </ul>
+      <Image
+        src="/images/the-return-of-the-king.png"
+        height={230}
+        width={140}
+        alt="cover of the return of the king"
+      >
+        {volumes.cover}
+      </Image>
+      <br />
       <Link href="/volumes/the-two-towers">← previous</Link>
     </>
   );
