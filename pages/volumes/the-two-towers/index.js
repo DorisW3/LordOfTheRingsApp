@@ -19,7 +19,15 @@ export default function volume2() {
           </li>
         ))}
       </ul>
-
+      <Image
+        src="/images/the-two-towers.png"
+        height={230}
+        width={140}
+        alt="cover of the two towers"
+      >
+        {volumes.cover}
+      </Image>
+      <br />
       <Link href="/volumes/the-fellowship-of-the-ring">← previous</Link>
       <Link href="/volumes/the-return-of-the-king">→ next</Link>
     </>
